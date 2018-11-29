@@ -4,8 +4,8 @@ import numpy as np
 import h5py
 
 class relu:
-    ##this layer used as a non-linear transformer
-    ##output has the same shape as input
+    # this layer used as a non-linear transformer
+    # output has the same shape as input
     def __init__(self, name, k=1.0):  ## output = k*input when input>=0;else output=0 ; default k = 1.0
         self.name = name
         self.type = 'relu'

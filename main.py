@@ -89,7 +89,7 @@ def train_continue_learning(task_id, dataset, EWC_batch, train_model):
             print('iter %d, loss %.2f, accuracy is %.2f' % (iteration, loss, accuracy))
         iteration += 1
 
-    ##save the current network as hdf5
+    # save the current network as hdf5
     time_struct = time.localtime()
     create_time_string = time.strftime('%m%d_%H%M%S', time_struct)
 
