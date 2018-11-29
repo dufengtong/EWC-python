@@ -1,3 +1,5 @@
+# Copyright 2018 Du Fengtong
+
 import numpy as np
 import h5py
 
