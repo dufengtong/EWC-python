@@ -6,7 +6,7 @@ A python implementation of elastic weight consolidation introduced in [Overcomin
 ## Running
 run main.py to get start.
 ## Result
-accuracy of the network after each task
+accuracy of the network after each MNIST permutation task. 
 
 <img src="https://github.com/dufengtong/EWC-python/blob/master/result.png" width="500">
 
